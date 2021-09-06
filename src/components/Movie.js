@@ -17,8 +17,8 @@ export default class Movie extends Component {
                 <p>Rating:{rating}</p>
                 <p>Genre:{genre}</p>
                 {this.state.showMovieDetail && <div>
-                <p>directorName:{directorName}</p>
-                <p>releaseYear:{releaseYear}</p>
+                <p>Director Name:{directorName}</p>
+                <p>Release Year:{releaseYear}</p>
                 </div>}
                 <button onClick={this.showMovieDetailFun}>Details</button>
                 <button onClick={() => this.props.deleteMovie(id)}>Delete</button>
