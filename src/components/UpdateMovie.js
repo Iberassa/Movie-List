@@ -21,7 +21,7 @@ export default class UpdateMovie extends Component {
                     type='text'
                     name='title'
                     defaultValue={this.props.updatedMovie[0].title}
-                    onChange={(e) => this.onChange(e)} /><br />
+                    onChange={this.onChange} /><br />
                 Rating {' '}<input
                     type='number'
                     name='rating'
